@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+bin/
+obj/
+
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# Environment
+*.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
