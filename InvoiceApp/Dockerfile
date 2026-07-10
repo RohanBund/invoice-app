@@ -8,6 +8,8 @@ WORKDIR /src
 
 COPY . .
 
+RUN find . -name "*.csproj" | head -20
+
 RUN dotnet restore "InvoiceApp.API/InvoiceApp.API.csproj"
 
 WORKDIR "/src/InvoiceApp.API"
